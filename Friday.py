@@ -16,7 +16,7 @@ import time
 
 """
 print("Note:  ")
-print("       Please Ask your Question with the word 'Alexa' . Orelse it thinks you are talking to somebody")
+print("       Please Ask your Question with the word 'Friday' . Orelse it thinks you are talking to somebody")
 print("       To do any Google search Please use the word 'Google Search About' ")
 print("       To play any songs or video's Please use the word 'Play'")
 print("       To ask about Date or Time use 'date' for Date and 'time' for Time")
@@ -46,7 +46,7 @@ def ProcessQuestion(question):
         question=question.replace('play','')
         pywhatkit.playonyt(question)    
         return True
-    #please include the word 'who is' to get the answert from wikipedia
+    #please include the word 'who is' to get the answer from wikipedia
     elif 'who is' in question:
         question=question.replace("who is"," ")
         print(wikipedia.summary(question,1))

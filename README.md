@@ -1,6 +1,7 @@
 # My-Personal-Assistant-Friday
 
 Please Ask your Question with the word 'Friday'
+
 Kindly please use Earphones for better Experience
 
     Note:  

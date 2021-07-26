@@ -104,7 +104,7 @@ def ProcessQuestion(question):
 def talk(answer):
     engine=pyttsx3.init()
     voices=engine.getProperty('voices')
-    # to get female voice.If you need male saet voices[1] as voices[0]  :)
+    # to get female voice.If you need male set voices[1] as voices[0]  :)
     engine.setProperty('voice',voices[1].id) 
     rate = engine.getProperty('rate')
     engine.setProperty('rate', rate-40)
